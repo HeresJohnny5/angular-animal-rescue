@@ -1,0 +1,20 @@
+/* ***** BRAND ***** */
+$color-white: #fff;
+$color-dark-cyan: #2193b0;
+$color-orange-red: #e4856d;
+
+/* ***** UNIVERSAL STYLES ***** */
+// * {
+//   box-sizing: border-box;
+//   /* Change the box model so that the borders and paddings are no longer added to the total width or the total height that is specified for a box */
+//   margin: 0;
+//   padding: 0;
+// }
+
+body {
+  /* The body will act as the parent for all other elements and thus the font family applied to the body tag will get inherited by all the child elements of the body */
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+}

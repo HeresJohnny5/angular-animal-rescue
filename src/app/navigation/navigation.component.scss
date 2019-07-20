@@ -1,0 +1,16 @@
+@import '../app.component.scss';
+
+nav {
+  z-index: 1;
+}
+
+.dropdown-menu.show {
+  border: 0;
+  margin: .5em 0 0 0;
+  padding: 0;
+}
+
+.dropdown-item:hover {
+  background-color: $color-dark-cyan;
+  color: $color-white;
+}
