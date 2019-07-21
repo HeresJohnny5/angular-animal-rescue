@@ -1,0 +1,16 @@
+@import "../app.component.scss";
+
+.section-header h2::after {
+  background-color: $color-dark-cyan;
+  content: " ";
+  display: block;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 3em;
+}
