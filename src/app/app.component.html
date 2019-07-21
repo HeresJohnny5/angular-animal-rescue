@@ -3,7 +3,7 @@
   <app-hero></app-hero>
   <section id="about-us">
     <div class="container">
-      <app-section-header></app-section-header>
+      <app-section-header [sectionTitle]="headersAbout"></app-section-header>
 
       <div class="row d-flex align-items-center">
         <div class="col-md-7">
@@ -51,5 +51,11 @@
 
   <section id="best-friend">
     <app-best-friend></app-best-friend>
+  </section>
+
+  <section id="adopt">
+    <div class="container">
+      <app-section-header [sectionTitle]="headersAdopt"></app-section-header>
+    </div>
   </section>
 </div>
