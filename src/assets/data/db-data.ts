@@ -1,4 +1,13 @@
-export const animalData: any = [
+export const animalData: {
+  id: number;
+  species: string;
+  name: string;
+  breed: string;
+  sex: string;
+  age: string;
+  weight: string;
+  img: string;
+}[] = [
   {
     id: 1,
     species: "Dog",
