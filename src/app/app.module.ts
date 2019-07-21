@@ -6,7 +6,8 @@ import { NavigationComponent } from "./navigation/navigation.component";
 import { HeroComponent } from "./hero/hero.component";
 import { SectionHeaderComponent } from "./section-header/section-header.component";
 import { DynamicTypeComponent } from "./dynamic-type/dynamic-type.component";
-import { BestFriendComponent } from './best-friend/best-friend.component';
+import { BestFriendComponent } from "./best-friend/best-friend.component";
+import { PetCardComponent } from "./pet/pet-card/pet-card.component";
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BestFriendComponent } from './best-friend/best-friend.component';
     HeroComponent,
     SectionHeaderComponent,
     DynamicTypeComponent,
-    BestFriendComponent
+    BestFriendComponent,
+    PetCardComponent
   ],
   imports: [BrowserModule],
   providers: [],

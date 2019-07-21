@@ -57,5 +57,9 @@
     <div class="container">
       <app-section-header [sectionTitle]="headersAdopt"></app-section-header>
     </div>
+
+    <div class="pets">
+      <app-pet-card *ngFor="let pet of pets" [pet]="pet"></app-pet-card>
+    </div>
   </section>
 </div>

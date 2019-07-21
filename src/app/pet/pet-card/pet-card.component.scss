@@ -1,0 +1,19 @@
+@import "../../app.component.scss";
+
+#adopt {
+  background-color: #f0f0f0;
+  padding-bottom: 3em;
+}
+
+.btn-adopt {
+  width: 100%;
+}
+
+.btn-adopt:hover {
+  background-color: $color-dark-cyan;
+  border-color: $color-dark-cyan;
+}
+
+.card-text:nth-child(even) {
+  margin-bottom: 0;
+}

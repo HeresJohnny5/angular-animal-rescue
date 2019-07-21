@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <!-- Row 1 -->
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="{{ pet.img }}" alt="{{ pet.alt }}" class="img-fluid" />
+        <div class="card-body">
+          <h5 class="card-title featurette-heading">{{ pet.name }}</h5>
+          <p class="card-text">{{ pet.breed }}</p>
+          <p class="card-text">{{ pet.sex }} - {{ pet.age }} (approx)</p>
+          <a href="#">
+            <button
+              type="button"
+              class="btn btn-sm btn-outline-secondary btn-adopt"
+            >
+              View
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
