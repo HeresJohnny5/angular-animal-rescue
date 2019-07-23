@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from "@angular/core";
   styleUrls: ["./pet-card.component.scss"]
 })
 export class PetCardComponent implements OnInit {
-  @Input() pet;
+  @Input() pets;
 
   constructor() {}
 
