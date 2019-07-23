@@ -1,0 +1,27 @@
+@import "../../app.component.scss";
+
+.involved-card {
+  background-color: #d9f2f7;
+  border: none;
+  text-align: center;
+}
+
+#get-involved i {
+  font-size: 4em;
+  color: $color-orange-red;
+  margin: 0 auto;
+  padding: 0.3em;
+  text-align: center;
+}
+
+.btn-get-involved {
+  background-color: $color-orange-red;
+  color: $color-white;
+  padding: 0.25em;
+  width: 100%;
+}
+
+.btn-get-involved:hover {
+  background-color: $color-orange-red;
+  color: $color-white;
+}

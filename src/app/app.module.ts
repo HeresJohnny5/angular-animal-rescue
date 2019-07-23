@@ -1,5 +1,7 @@
-import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
+
+import { BrowserModule } from "@angular/platform-browser";
+import { AngularFontAwesomeModule } from "angular-font-awesome";
 
 import { AppComponent } from "./app.component";
 import { NavigationComponent } from "./navigation/navigation.component";
@@ -8,6 +10,7 @@ import { SectionHeaderComponent } from "./section-header/section-header.componen
 import { DynamicTypeComponent } from "./dynamic-type/dynamic-type.component";
 import { BestFriendComponent } from "./best-friend/best-friend.component";
 import { PetCardComponent } from "./pet/pet-card/pet-card.component";
+import { GetInvolvedCardComponent } from './get-involved/get-involved-card/get-involved-card.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +20,10 @@ import { PetCardComponent } from "./pet/pet-card/pet-card.component";
     SectionHeaderComponent,
     DynamicTypeComponent,
     BestFriendComponent,
-    PetCardComponent
+    PetCardComponent,
+    GetInvolvedCardComponent
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, AngularFontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent]
 })

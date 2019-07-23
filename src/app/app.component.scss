@@ -37,3 +37,27 @@ body {
 #make-a-difference {
   margin-bottom: 3em;
 }
+
+/* ***** QUOTE STYLES ***** */
+#quote {
+  background-color: $color-dark-cyan;
+}
+
+#quote .blockquote-container {
+  margin: 0 auto;
+  padding: 3em 0;
+  text-align: center;
+  width: 70%;
+}
+
+#quote .blockquote h2 {
+  color: $color-white;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#quote .blockquote-footer {
+  color: $color-white;
+  padding-left: 1.5em;
+  text-align: left;
+}

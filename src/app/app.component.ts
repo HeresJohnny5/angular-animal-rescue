@@ -1,20 +1,21 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 
 import { Pet } from "./pet/pet-modal";
+import { GetInvolved } from "./get-involved/get-involved-modal";
 
-import { Pets } from "../assets/data/db-data";
+import { PetsData } from "../assets/data/pets-data";
+import { GetInvolvedData } from "../assets/data/get-involved-data";
 
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.scss"]
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   headersAbout: string = "About Us";
   headersAdopt: string = "Adopt";
-  pets: Pet[] = Pets;
+  headersGetInvolved: string = "Get Involved";
 
-  ngOnInit(): void {
-    console.log("TESTING: ", this.pets);
-  }
+  pets: Pet[] = PetsData;
+  getInvolvedData: GetInvolved[] = GetInvolvedData;
 }

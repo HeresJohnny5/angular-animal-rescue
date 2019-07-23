@@ -62,4 +62,32 @@
       <app-pet-card [pets]="pets"></app-pet-card>
     </div>
   </section>
+
+  <section id="quote">
+    <div class="container blockquote-container">
+      <blockquote class="blockquote">
+        <h2 class="mb-0">
+          "Pets are humanizing. They remind us we have an obligation and
+          responsibility to preserve and nurture and care for all life."
+        </h2>
+        <footer class="blockquote-footer">
+          <cite title="Source Title">James Cromwell</cite>
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="get-involved">
+    <div class="container">
+      <app-section-header
+        [sectionTitle]="headersGetInvolved"
+      ></app-section-header>
+    </div>
+
+    <div class="get-involved">
+      <app-get-involved-card
+        [getInvolvedData]="getInvolvedData"
+      ></app-get-involved-card>
+    </div>
+  </section>
 </div>
