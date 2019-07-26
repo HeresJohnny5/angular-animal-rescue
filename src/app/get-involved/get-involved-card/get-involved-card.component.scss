@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-#get-involved i {
+i {
   font-size: 4em;
   color: $color-orange-red;
   margin: 0 auto;
@@ -22,6 +22,6 @@
 }
 
 .btn-get-involved:hover {
-  background-color: $color-orange-red;
+  background-color: $color-orange-red-hover;
   color: $color-white;
 }

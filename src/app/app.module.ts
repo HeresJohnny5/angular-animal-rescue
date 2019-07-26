@@ -1,7 +1,6 @@
 import { NgModule } from "@angular/core";
 
 import { BrowserModule } from "@angular/platform-browser";
-import { AngularFontAwesomeModule } from "angular-font-awesome";
 
 import { AppComponent } from "./app.component";
 import { NavigationComponent } from "./navigation/navigation.component";
@@ -23,7 +22,7 @@ import { GetInvolvedCardComponent } from './get-involved/get-involved-card/get-i
     PetCardComponent,
     GetInvolvedCardComponent
   ],
-  imports: [BrowserModule, AngularFontAwesomeModule],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
