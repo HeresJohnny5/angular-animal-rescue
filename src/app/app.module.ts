@@ -10,6 +10,8 @@ import { DynamicTypeComponent } from "./dynamic-type/dynamic-type.component";
 import { BestFriendComponent } from "./best-friend/best-friend.component";
 import { PetCardComponent } from "./pet/pet-card/pet-card.component";
 import { GetInvolvedCardComponent } from './get-involved/get-involved-card/get-involved-card.component';
+import { PartnersComponent } from './partners/partners.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { GetInvolvedCardComponent } from './get-involved/get-involved-card/get-i
     DynamicTypeComponent,
     BestFriendComponent,
     PetCardComponent,
-    GetInvolvedCardComponent
+    GetInvolvedCardComponent,
+    PartnersComponent,
+    FooterComponent
   ],
   imports: [BrowserModule],
   providers: [],

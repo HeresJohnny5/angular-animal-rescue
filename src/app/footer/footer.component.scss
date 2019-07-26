@@ -1,0 +1,28 @@
+@import "../app.component.scss";
+
+#footer {
+  padding: 5em 0;
+}
+
+.footer-list a {
+  color: #adadad;
+  list-style: none;
+}
+
+.footer-list a:hover {
+  color: $color-white;
+  text-decoration: none;
+}
+
+#footer i {
+  padding-right: 0.5em;
+}
+
+.email-link {
+  color: $color-white;
+}
+
+.email-link:hover {
+  color: $color-white;
+  text-decoration: none;
+}

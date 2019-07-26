@@ -15,6 +15,7 @@ export class AppComponent {
   headersAbout: string = "About Us";
   headersAdopt: string = "Adopt";
   headersGetInvolved: string = "Get Involved";
+  headersPartners: string = "Partners";
 
   pets: Pet[] = PetsData;
   getInvolvedData: GetInvolved[] = GetInvolvedData;

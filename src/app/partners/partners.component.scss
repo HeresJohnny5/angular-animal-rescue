@@ -1,0 +1,43 @@
+@import "../app.component.scss";
+
+#partners {
+  background-color: $color-dark-cyan;
+  padding: 3em 0;
+}
+
+// .section-header {
+//   color: $color-white;
+// }
+
+// .section-header h2::after {
+//   background-color: $color-white;
+// }
+
+// .section-header p {
+//   margin: 3em 0 0 0;
+// }
+
+@media only screen and (min-width: 320px) and (max-width: 575px) and (-webkit-min-device-pixel-ratio: 2) {
+  #partners img {
+    display: none;
+  }
+
+  #partners p {
+    color: $color-white;
+    text-align: center;
+  }
+
+  #partners a:hover {
+    text-decoration: none;
+  }
+
+  .colony-cafe {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #partners p {
+    display: none;
+  }
+}
