@@ -1,50 +1,32 @@
 @import "../app.component.scss";
 
-.header-about {
-  text-align: center;
-  padding-bottom: 3em;
-
-  h2::after {
-    background-color: $color-dark-cyan;
-    content: " ";
-    display: block;
-    height: 2px;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 150px;
-  }
-}
-
-.header-content {
-  text-align: center;
-  padding-bottom: 3em;
-
-  h2 {
-    padding-top: 48px;
-  }
-
-  h2::after {
-    background-color: $color-dark-cyan;
-    content: " ";
-    display: block;
-    height: 2px;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 150px;
-  }
-}
-
+.header-about,
+.header-content,
 .header-partners {
   text-align: center;
   padding-bottom: 3em;
+}
 
-  h2::after {
-    background-color: #fff;
-    content: " ";
-    display: block;
-    height: 2px;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 150px;
-  }
+.header-content > h2 {
+  padding-top: 48px;
+}
+
+.header-about h2::after,
+.header-content h2::after,
+.header-partners h2::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.header-about h2::after,
+.header-content h2::after {
+  background-color: $color-dark-cyan;
+}
+
+.header-partners h2::after {
+  background-color: #fff;
 }
