@@ -17,57 +17,57 @@
   height: 95vh;
   /* At every point, the height of the .header element should be 95% of the viewport height */
   position: relative;
-}
 
-.hero-container {
-  position: absolute;
-  top: 50%; /* This is 50% of the height of the parent element */
-  left: 50%; /* This is 50% of the width of the parent element */
-  transform: translate(-50%, -50%);
-  /* This is 40% for y coordinate and 50% for the x coordinate in relation to the element and not the element's parent */
-}
-
-.hero-header {
-  color: $color-white;
-  text-transform: uppercase;
-}
-
-.hero-main {
-  animation: fadeInUp 1s ease-out;
-  display: block;
-  font-size: 60px;
-  font-weight: 400;
-  letter-spacing: 15px;
-  text-align: center;
-}
-
-.hero-sub {
-  animation: fadeIn 2s ease-out;
-  display: block;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 6px;
-  text-align: center;
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(-100px);
+  .hero-container {
+    position: absolute;
+    top: 50%; /* This is 50% of the height of the parent element */
+    left: 50%; /* This is 50% of the width of the parent element */
+    transform: translate(-50%, -50%);
+    /* This is 40% for y coordinate and 50% for the x coordinate in relation to the element and not the element's parent */
   }
 
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
+  .hero-header {
+    color: $color-white;
+    text-transform: uppercase;
   }
 
-  100% {
-    opacity: 1;
+  .hero-main {
+    animation: fadeInUp 1s ease-out;
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    text-align: center;
+  }
+
+  .hero-sub {
+    animation: fadeIn 2s ease-out;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-align: center;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
 }

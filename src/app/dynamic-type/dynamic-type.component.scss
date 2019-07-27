@@ -6,15 +6,15 @@
   height: 100%;
   padding: 4em;
   text-align: center;
-}
 
-.btn-learn-how {
-  background-color: $color-dark-cyan;
-  border-radius: 20px;
-  color: $color-white;
-}
+  .btn-learn-how {
+    background-color: $color-dark-cyan;
+    border-radius: 20px;
+    color: $color-white;
+  }
 
-.btn-learn-how:hover {
-  background-color: #1c829c;
-  color: $color-white;
+  .btn-learn-how:hover {
+    background-color: #1c829c;
+    color: $color-white;
+  }
 }

@@ -9,25 +9,25 @@
   background-size: cover;
   height: 95vh;
   position: relative;
-}
 
-.best-friend-container {
-  position: absolute;
-  top: 50%; /* This is 50% of the height of the parent element */
-  left: 50%; /* This is 50% of the width of the parent element */
-  transform: translate(-50%, -50%);
-  /* This is 40% for y coordinate and 50% for the x coordinate in relation to the element and not the element's parent */
-}
+  .best-friend-container {
+    position: absolute;
+    top: 50%; /* This is 50% of the height of the parent element */
+    left: 50%; /* This is 50% of the width of the parent element */
+    transform: translate(-50%, -50%);
+    /* This is 40% for y coordinate and 50% for the x coordinate in relation to the element and not the element's parent */
 
-.best-friend-header {
-  color: $color-white;
-  text-transform: uppercase;
-}
+    .best-friend-header {
+      color: $color-white;
+      text-transform: uppercase;
 
-.best-friend-main {
-  display: block;
-  font-size: 60px;
-  font-weight: 400;
-  letter-spacing: 15px;
-  text-align: center;
+      .best-friend-main {
+        display: block;
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 15px;
+        text-align: center;
+      }
+    }
+  }
 }

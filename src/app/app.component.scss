@@ -41,6 +41,12 @@ body {
   margin-bottom: 3em;
 }
 
+/* ***** ADOPT STYLES ***** */
+#adopt {
+  background-color: #f0f0f0;
+  padding-bottom: 3em;
+}
+
 /* ***** QUOTE STYLES ***** */
 #quote {
   background-color: $color-dark-cyan;
@@ -63,4 +69,10 @@ body {
   color: $color-white;
   padding-left: 1.5em;
   text-align: left;
+}
+
+/* ***** PARTNERS STYLES ***** */
+#partners {
+  background-color: #2193b0;
+  padding: 3em 0;
 }
