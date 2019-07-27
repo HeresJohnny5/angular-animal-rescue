@@ -13,16 +13,16 @@
 // }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) and (-webkit-min-device-pixel-ratio: 2) {
-  #partners img {
+  img {
     display: none;
   }
 
-  #partners p {
+  p {
     color: $color-white;
     text-align: center;
   }
 
-  #partners a:hover {
+  a:hover {
     text-decoration: none;
   }
 
@@ -32,7 +32,7 @@
 }
 
 @media (min-width: 576px) {
-  #partners p {
+  p {
     display: none;
   }
 }
