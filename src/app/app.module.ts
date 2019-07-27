@@ -15,6 +15,7 @@ import { PartnersComponent } from "./partners/partners.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HomeComponent } from "./home/home.component";
 import { DogsComponent } from "./pet/dogs/dogs.component";
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },
@@ -35,7 +36,8 @@ const appRoutes: Routes = [
     PartnersComponent,
     FooterComponent,
     HomeComponent,
-    DogsComponent
+    DogsComponent,
+    ContactComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],
