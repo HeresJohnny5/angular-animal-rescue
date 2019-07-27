@@ -11,4 +11,13 @@ export class SectionHeaderComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  getValue() {
+    return {
+      "header-about": this.sectionTitle === "About Us",
+      "header-content":
+        this.sectionTitle === "Adopt" || this.sectionTitle === "Get Involved",
+      "header-partners": this.sectionTitle === "Partners"
+    };
+  }
 }
