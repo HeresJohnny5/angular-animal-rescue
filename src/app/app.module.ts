@@ -14,8 +14,13 @@ import { GetInvolvedCardComponent } from "./get-involved/get-involved-card/get-i
 import { PartnersComponent } from "./partners/partners.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HomeComponent } from "./home/home.component";
+import { DogsComponent } from "./pet/dogs/dogs.component";
 
-const appRoutes: Routes = [{ path: "", component: HomeComponent }];
+const appRoutes: Routes = [
+  { path: "", redirectTo: "/home", pathMatch: "full" },
+  { path: "home", component: HomeComponent },
+  { path: "dogs", component: DogsComponent }
+];
 
 @NgModule({
   declarations: [
@@ -29,7 +34,8 @@ const appRoutes: Routes = [{ path: "", component: HomeComponent }];
     GetInvolvedCardComponent,
     PartnersComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    DogsComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],

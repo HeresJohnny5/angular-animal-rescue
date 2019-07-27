@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-hero",
@@ -6,7 +7,21 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./hero.component.scss"]
 })
 export class HeroComponent implements OnInit {
-  constructor() {}
+  heroTitle: string;
 
-  ngOnInit() {}
+  constructor(private router: Router) {}
+
+  ngOnInit() {
+    switch (this.router.url) {
+      case "/home":
+        this.heroTitle = "Adopt A Pet";
+        break;
+      case "/dogs":
+        this.heroTitle = "Dogs";
+        break;
+      case "/cats":
+        this.heroTitle = "Cats";
+        break;
+    }
+  }
 }
