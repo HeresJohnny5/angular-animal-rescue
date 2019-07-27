@@ -12,7 +12,7 @@ export class SectionHeaderComponent implements OnInit {
 
   ngOnInit() {}
 
-  sectionHeaderValue() {
+  sectionHeaderValue(): Object {
     return {
       "header-about": this.sectionTitle === "About Us",
       "header-content":

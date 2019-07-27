@@ -24,4 +24,11 @@ export class HeroComponent implements OnInit {
         break;
     }
   }
+
+  heroHomeValue(): Object {
+    return {
+      "hero-home": this.heroTitle === "Adopt A Pet",
+      "hero-dog": this.heroTitle === "Dogs"
+    };
+  }
 }
