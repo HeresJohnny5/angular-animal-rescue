@@ -31,9 +31,23 @@
   background-position: center;
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  /* The clip-path property uses x, y coordinates, starting from top left, top right, bottom right, bottom left */
   height: 95vh;
-  /* At every point, the height of the .header element should be 95% of the viewport height */
+  position: relative;
+}
+
+.hero-cat {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(109, 213, 237, 0.7),
+      rgba($color-dark-cyan, 0.7)
+    ),
+    url("../../assets/img/japheth-mast-Ga6z9QD8yvw-unsplash.jpg");
+  /* Add Photo Credit: Photo by Japheth Mast on Unsplash */
+  /* https://images.unsplash.com/photo-1501743029101-21a00d6a3fb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80*/
+  background-position: top;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  height: 95vh;
   position: relative;
 }
 

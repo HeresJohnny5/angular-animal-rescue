@@ -21,6 +21,8 @@ export class PetCardComponent implements OnInit {
 
     if (this.router.url === "/dogs") {
       this.clonePets = this.clonePets.filter(pet => pet.species === "Dog");
+    } else if (this.router.url === "/cats") {
+      this.clonePets = this.clonePets.filter(pet => pet.species === "Cat");
     }
   }
 }

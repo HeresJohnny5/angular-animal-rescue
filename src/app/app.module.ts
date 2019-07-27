@@ -15,12 +15,14 @@ import { PartnersComponent } from "./partners/partners.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HomeComponent } from "./home/home.component";
 import { DogsComponent } from "./pet/dogs/dogs.component";
-import { ContactComponent } from './contact/contact.component';
+import { ContactComponent } from "./contact/contact.component";
+import { CatsComponent } from "./pet/cats/cats.component";
 
 const appRoutes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },
   { path: "home", component: HomeComponent },
-  { path: "dogs", component: DogsComponent }
+  { path: "dogs", component: DogsComponent },
+  { path: "cats", component: CatsComponent }
 ];
 
 @NgModule({
@@ -37,7 +39,8 @@ const appRoutes: Routes = [
     FooterComponent,
     HomeComponent,
     DogsComponent,
-    ContactComponent
+    ContactComponent,
+    CatsComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],
