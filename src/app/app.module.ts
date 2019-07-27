@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 
 import { BrowserModule } from "@angular/platform-browser";
+import { RouterModule, Routes } from "@angular/router";
 
 import { AppComponent } from "./app.component";
 import { NavigationComponent } from "./navigation/navigation.component";
@@ -9,9 +10,12 @@ import { SectionHeaderComponent } from "./section-header/section-header.componen
 import { DynamicTypeComponent } from "./dynamic-type/dynamic-type.component";
 import { BestFriendComponent } from "./best-friend/best-friend.component";
 import { PetCardComponent } from "./pet/pet-card/pet-card.component";
-import { GetInvolvedCardComponent } from './get-involved/get-involved-card/get-involved-card.component';
-import { PartnersComponent } from './partners/partners.component';
-import { FooterComponent } from './footer/footer.component';
+import { GetInvolvedCardComponent } from "./get-involved/get-involved-card/get-involved-card.component";
+import { PartnersComponent } from "./partners/partners.component";
+import { FooterComponent } from "./footer/footer.component";
+import { HomeComponent } from "./home/home.component";
+
+const appRoutes: Routes = [{ path: "", component: HomeComponent }];
 
 @NgModule({
   declarations: [
@@ -24,9 +28,10 @@ import { FooterComponent } from './footer/footer.component';
     PetCardComponent,
     GetInvolvedCardComponent,
     PartnersComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -1,0 +1,56 @@
+@import "../app.component.scss";
+
+/* ***** ABOUT US STYLES ***** */
+#about-us {
+  margin: 3em 0;
+}
+
+.featurette-heading {
+  background-color: $color-dark-cyan;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  color: $color-white;
+  font-weight: 300;
+  padding: 0.25em;
+  width: 52%;
+}
+
+/* ***** MAKE A DIFFERENCE STYLES ***** */
+#make-a-difference {
+  margin-bottom: 3em;
+}
+
+/* ***** ADOPT STYLES ***** */
+#adopt {
+  background-color: #f0f0f0;
+  padding-bottom: 3em;
+}
+
+/* ***** QUOTE STYLES ***** */
+#quote {
+  background-color: $color-dark-cyan;
+}
+
+#quote .blockquote-container {
+  margin: 0 auto;
+  padding: 3em 0;
+  text-align: center;
+  width: 70%;
+}
+
+#quote .blockquote h2 {
+  color: $color-white;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#quote .blockquote-footer {
+  color: $color-white;
+  padding-left: 1.5em;
+  text-align: left;
+}
+
+/* ***** PARTNERS STYLES ***** */
+#partners {
+  background-color: #2193b0;
+  padding: 3em 0;
+}
