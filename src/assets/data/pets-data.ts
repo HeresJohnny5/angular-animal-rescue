@@ -1,6 +1,6 @@
 export const PetsData = [
   {
-    id: 1,
+    id: 0,
     species: "Dog",
     name: "Mocha",
     breed: "Chocolate Lab",
@@ -12,7 +12,7 @@ export const PetsData = [
     alt: "Photo by Jairo Alzate on Unsplash"
   },
   {
-    id: 2,
+    id: 1,
     species: "Dog",
     name: "Chase",
     breed: "Terrier Pit Bull/Mix",
@@ -24,7 +24,7 @@ export const PetsData = [
     alt: "Photo by Justin Veenema on Unsplash"
   },
   {
-    id: 3,
+    id: 2,
     species: "Cat",
     name: "Lasagna",
     breed: "Domestic Shorthair",
@@ -36,7 +36,7 @@ export const PetsData = [
     alt: "Photo by Erik-Jan Leusink on Unsplash"
   },
   {
-    id: 4,
+    id: 3,
     species: "Cat",
     name: "Dreamsicle",
     breed: "Mediumhair",
@@ -48,7 +48,7 @@ export const PetsData = [
     alt: "Photo by fotografierende on Unsplash"
   },
   {
-    id: 5,
+    id: 4,
     species: "Dog",
     name: "Diesle",
     breed: "Pit Bull/Mix",
@@ -60,7 +60,7 @@ export const PetsData = [
     alt: "Photo by Edgar Chaparro on Unsplash"
   },
   {
-    id: 6,
+    id: 5,
     species: "Cat",
     name: "Noodle",
     breed: "Domestic Shorthair",
@@ -72,7 +72,7 @@ export const PetsData = [
     alt: "Photo by Isabela Ferreira on Unsplash"
   },
   {
-    id: 7,
+    id: 6,
     species: "Cat",
     name: "Pookie",
     breed: "Maine Coon",
@@ -84,7 +84,7 @@ export const PetsData = [
     alt: "Photo by Diana Parkhouse on Unsplash"
   },
   {
-    id: 8,
+    id: 7,
     species: "Cat",
     name: "Winchester",
     breed: "Bengal",
@@ -96,7 +96,7 @@ export const PetsData = [
     alt: "Photo by Caleb Woods on Unsplash"
   },
   {
-    id: 9,
+    id: 8,
     species: "Dog",
     name: "Coco",
     breed: "Chocolate Lab",

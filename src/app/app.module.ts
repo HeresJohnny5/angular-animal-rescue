@@ -24,7 +24,8 @@ const appRoutes: Routes = [
   { path: "home", component: HomeComponent },
   { path: "dogs", component: DogsComponent },
   { path: "cats", component: CatsComponent },
-  { path: "pet", component: PetComponent }
+  { path: "pet/:id", component: PetComponent }
+  // { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

@@ -1,15 +1,11 @@
-<app-section-header [sectionTitle]="headersAbout"></app-section-header>
+<!-- <app-section-header [sectionTitle]="headersAbout"></app-section-header> -->
 
 <section id="pet">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img
-          src="../../../assets/img/japheth-mast-Ga6z9QD8yvw-unsplash.jpg"
-          alt=""
-          class="img-fluid mb-2"
-        />
-        <h3 class="featurette-heading">Mocha</h3>
+        <img src="{{ pet.img }}" alt="{{ pet.alt }}" class="img-fluid mb-2" />
+        <h3 class="featurette-heading">{{ pet.name }}</h3>
         <blockquote class="blockquote">
           <p class="mb-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -29,9 +25,15 @@
         </p>
       </div>
       <div class="col-md-6">
-        <p>Breed: <span>Chocolate Lab</span></p>
-        <p>Sex: <span>Female</span></p>
-        <p>Age: <span>10 weeks approx</span></p>
+        <p>
+          Breed: <span>{{ pet.breed }}</span>
+        </p>
+        <p>
+          Sex: <span>{{ pet.sex }}</span>
+        </p>
+        <p>
+          Age: <span>{{ pet.age }} approx</span>
+        </p>
         <p>Arrived: April 01, 2019</p>
 
         <div class="adopt-pet">
