@@ -19,8 +19,19 @@
   color: $color-orange-red;
 }
 
-.social-container {
+.social-container-header {
   font-size: 1.5em;
   margin-bottom: 1em;
   text-align: center;
+}
+
+.social-container-body {
+  background-color: #79e17b;
+  margin: 0.5em 1em 0 1em;
+  padding: 1.3rem;
+  transform: scale(1.07) skewX(-15deg);
+}
+
+.social-container-body i {
+  transform: scale(1.07) skewX(15deg);
 }
