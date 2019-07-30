@@ -9,7 +9,9 @@ export const PetsData = [
     weight: "10 pounds",
     img:
       "https://images.unsplash.com/photo-1447684808650-354ae64db5b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1347&q=80",
-    alt: "Photo by Jairo Alzate on Unsplash"
+    alt: "Photo by Jairo Alzate on Unsplash",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
   },
   {
     id: 1,
@@ -21,7 +23,9 @@ export const PetsData = [
     weight: "15 pounds",
     img:
       "https://images.unsplash.com/photo-1477884143921-51d0a574ee09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Justin Veenema on Unsplash"
+    alt: "Photo by Justin Veenema on Unsplash",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
   },
   {
     id: 2,
@@ -33,7 +37,9 @@ export const PetsData = [
     weight: "12 pounds",
     img:
       "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-    alt: "Photo by Erik-Jan Leusink on Unsplash"
+    alt: "Photo by Erik-Jan Leusink on Unsplash",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
   },
   {
     id: 3,
@@ -45,7 +51,9 @@ export const PetsData = [
     weight: "10 pounds",
     img:
       "https://images.unsplash.com/photo-1545424920-dfef0be9bfc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-    alt: "Photo by fotografierende on Unsplash"
+    alt: "Photo by fotografierende on Unsplash",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
   },
   {
     id: 4,
@@ -57,7 +65,9 @@ export const PetsData = [
     weight: "30 pounds",
     img:
       "https://images.unsplash.com/photo-1529956650128-bca881be2e60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Edgar Chaparro on Unsplash"
+    alt: "Photo by Edgar Chaparro on Unsplash",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
   },
   {
     id: 5,
@@ -69,7 +79,9 @@ export const PetsData = [
     weight: "15 pounds",
     img:
       "https://images.unsplash.com/photo-1534330980656-d201223895ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Isabela Ferreira on Unsplash"
+    alt: "Photo by Isabela Ferreira on Unsplash",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
   },
   {
     id: 6,
@@ -81,7 +93,9 @@ export const PetsData = [
     weight: "5 pounds",
     img:
       "https://images.unsplash.com/photo-1542736143-29a8432162bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-    alt: "Photo by Diana Parkhouse on Unsplash"
+    alt: "Photo by Diana Parkhouse on Unsplash",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
   },
   {
     id: 7,
@@ -93,7 +107,9 @@ export const PetsData = [
     weight: "15 pounds",
     img:
       "https://images.unsplash.com/photo-1493536122405-24f67df95909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Caleb Woods on Unsplash"
+    alt: "Photo by Caleb Woods on Unsplash",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
   },
   {
     id: 8,
@@ -105,6 +121,8 @@ export const PetsData = [
     weight: "49 pounds",
     img:
       "https://images.unsplash.com/photo-1512251275231-63e355f3d028?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Rebekah Howell on Unsplash"
+    alt: "Photo by Rebekah Howell on Unsplash",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
   }
 ];
