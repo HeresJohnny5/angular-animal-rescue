@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 
-import { Pet } from "../pet/pet-modal";
+import { Pet } from "../pets/pet-modal";
 import { GetInvolved } from "../get-involved/get-involved-modal";
 
 import { PetsData } from "../../assets/data/pets-data";

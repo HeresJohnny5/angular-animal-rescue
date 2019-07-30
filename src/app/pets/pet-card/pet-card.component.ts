@@ -3,7 +3,7 @@ import { Router } from "@angular/router";
 
 import * as cloneDeep from "lodash/cloneDeep";
 
-import { Pet } from "../../pet/pet-modal";
+import { Pet } from "../../pets/pet-modal";
 
 @Component({
   selector: "app-pet-card",

@@ -9,20 +9,22 @@ import { HeroComponent } from "./hero/hero.component";
 import { SectionHeaderComponent } from "./section-header/section-header.component";
 import { DynamicTypeComponent } from "./dynamic-type/dynamic-type.component";
 import { BestFriendComponent } from "./best-friend/best-friend.component";
-import { PetCardComponent } from "./pet/pet-card/pet-card.component";
+import { PetCardComponent } from "./pets/pet-card/pet-card.component";
 import { GetInvolvedCardComponent } from "./get-involved/get-involved-card/get-involved-card.component";
 import { PartnersComponent } from "./partners/partners.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HomeComponent } from "./home/home.component";
-import { DogsComponent } from "./pet/dogs/dogs.component";
+import { DogsComponent } from "./pets/dogs/dogs.component";
 import { ContactComponent } from "./contact/contact.component";
-import { CatsComponent } from "./pet/cats/cats.component";
+import { CatsComponent } from "./pets/cats/cats.component";
+import { PetComponent } from "./pets/pet/pet.component";
 
 const appRoutes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },
   { path: "home", component: HomeComponent },
   { path: "dogs", component: DogsComponent },
-  { path: "cats", component: CatsComponent }
+  { path: "cats", component: CatsComponent },
+  { path: "pet", component: PetComponent }
 ];
 
 @NgModule({
@@ -40,7 +42,8 @@ const appRoutes: Routes = [
     HomeComponent,
     DogsComponent,
     ContactComponent,
-    CatsComponent
+    CatsComponent,
+    PetComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],
