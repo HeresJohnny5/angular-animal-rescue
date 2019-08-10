@@ -115,18 +115,5 @@
     "alt": "Photo by Rebekah Howell on Unsplash",
     "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?"
-  },
-  {
-    "id": 9,
-    "species": "Updated Species",
-    "name": "Updated Name",
-    "breed": "Updated Breed",
-    "sex": "Updated Sex",
-    "age": "Updated Age",
-    "weight": "Updated Weight",
-    "img": "Updated Image Source",
-    "alt": "Updated Alt Information",
-    "summary": "Updated Summary",
-    "desc": "Updated Description"
   }
 ]

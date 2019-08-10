@@ -49,7 +49,6 @@ const createPet = (req, res) => {
     JSON.stringify(pets),
     err => {
       res.status(201).json({
-        // status code 201 means created
         status: "success",
         data: {
           pet: newPet
@@ -85,11 +84,37 @@ const updatePet = (req, res) => {
     JSON.stringify(pets),
     err => {
       res.status(200).json({
-        // status code 201 means created
         status: "success",
         data: {
           pet
         }
+      });
+    }
+  );
+};
+
+const deletePet = (req, res) => {
+  const id = parseInt(req.params.id);
+  const pet = pets.find(pet => pet.id === id);
+
+  if (!pet) {
+    return res.status(404).json({
+      status: "fail",
+      message: "Invalid ID"
+    });
+  }
+
+  const updatedPets = pets.filter(pet => {
+    return pet.id !== id;
+  });
+
+  fs.writeFile(
+    `${__dirname}/data/pets-data.json`,
+    JSON.stringify(updatedPets),
+    err => {
+      res.status(204).json({
+        status: "success",
+        data: null
       });
     }
   );
@@ -102,7 +127,8 @@ app
 app
   .route("/api/v1/pets/:id")
   .get(getPet)
-  .patch(updatePet);
+  .patch(updatePet)
+  .delete(deletePet);
 
 // SERVER
 const port = 3000;
