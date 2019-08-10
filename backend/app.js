@@ -38,7 +38,31 @@ const getPet = (req, res) => {
   });
 };
 
-app.route("/api/v1/pets").get(getAllPets);
+const createPet = (req, res) => {
+  const newId = pets[pets.length - 1].id + 1;
+  const newPet = Object.assign({ id: newId }, req.body);
+
+  pets.push(newPet);
+
+  fs.writeFile(
+    `${__dirname}/data/pets-data.json`,
+    JSON.stringify(pets),
+    err => {
+      res.status(201).json({
+        // status code 201 means created
+        status: "success",
+        data: {
+          pet: newPet
+        }
+      });
+    }
+  );
+};
+
+app
+  .route("/api/v1/pets")
+  .get(getAllPets)
+  .post(createPet);
 app.route("/api/v1/pets/:id").get(getPet);
 
 // SERVER
