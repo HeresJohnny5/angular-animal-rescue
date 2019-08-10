@@ -118,15 +118,15 @@
   },
   {
     "id": 9,
-    "species": "Dog",
-    "name": "Test Name",
-    "breed": "Test Breed",
-    "sex": "Test Sex",
-    "age": "Test Age",
-    "weight": "Test Weight",
-    "img": "Test Image Source",
-    "alt": "Test Alt Information",
-    "summary": "Test Summary",
-    "desc": "Test Description"
+    "species": "Updated Species",
+    "name": "Updated Name",
+    "breed": "Updated Breed",
+    "sex": "Updated Sex",
+    "age": "Updated Age",
+    "weight": "Updated Weight",
+    "img": "Updated Image Source",
+    "alt": "Updated Alt Information",
+    "summary": "Updated Summary",
+    "desc": "Updated Description"
   }
 ]

@@ -59,11 +59,50 @@ const createPet = (req, res) => {
   );
 };
 
+const updatePet = (req, res) => {
+  const id = parseInt(req.params.id);
+  const updatedPet = req.body;
+
+  const pet = pets.find(pet => pet.id === id);
+
+  if (!pet) {
+    return res.status(404).json({
+      status: "fail",
+      message: "Invalid ID"
+    });
+  }
+
+  for (let key in updatedPet) {
+    if (pet.hasOwnProperty(key)) {
+      pet[key] = updatedPet[key];
+    }
+  }
+
+  pets[id] = pet;
+
+  fs.writeFile(
+    `${__dirname}/data/pets-data.json`,
+    JSON.stringify(pets),
+    err => {
+      res.status(200).json({
+        // status code 201 means created
+        status: "success",
+        data: {
+          pet
+        }
+      });
+    }
+  );
+};
+
 app
   .route("/api/v1/pets")
   .get(getAllPets)
   .post(createPet);
-app.route("/api/v1/pets/:id").get(getPet);
+app
+  .route("/api/v1/pets/:id")
+  .get(getPet)
+  .patch(updatePet);
 
 // SERVER
 const port = 3000;
