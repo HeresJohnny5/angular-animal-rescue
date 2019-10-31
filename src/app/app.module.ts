@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { NgModule, Component } from "@angular/core";
 
 import { BrowserModule } from "@angular/platform-browser";
 import { RouterModule, Routes } from "@angular/router";
@@ -18,7 +18,7 @@ import { DogsComponent } from "./pets/dogs/dogs.component";
 import { ContactComponent } from "./contact/contact.component";
 import { CatsComponent } from "./pets/cats/cats.component";
 import { PetComponent } from "./pets/pet/pet.component";
-import { PaginationComponent } from './pagination/pagination.component';
+import { PaginationComponent } from "./pagination/pagination.component";
 
 const appRoutes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },

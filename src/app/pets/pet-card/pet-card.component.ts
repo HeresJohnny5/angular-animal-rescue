@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { Router } from "@angular/router";
+import { Router, NavigationEnd } from "@angular/router";
 
 import * as cloneDeep from "lodash/cloneDeep";
 
@@ -24,5 +24,12 @@ export class PetCardComponent implements OnInit {
     } else if (this.router.url === "/cats") {
       this.clonePets = this.clonePets.filter(pet => pet.species === "Cat");
     }
+
+    this.router.events.subscribe((evt) => {
+      if (!(evt instanceof NavigationEnd)) {
+        return;
+      }
+      window.scrollTo(0, 0)
+    });
   }
 }
