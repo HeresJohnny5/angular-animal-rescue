@@ -6,13 +6,23 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./navigation.component.scss"]
 })
 export class NavigationComponent implements OnInit {
-  public navbarOpen = false;
-
   constructor() { }
 
   ngOnInit() { }
 
+  navbarOpen = false;
+  adoptOpen = false;
+  getInvolvedOpen = false;
+
   toggleNavbar(): void {
     this.navbarOpen = !this.navbarOpen;
+  }
+
+  toggleAdopt(): void {
+    this.adoptOpen = !this.adoptOpen;
+  }
+
+  toggleGetInvolved(): void {
+    this.getInvolvedOpen = !this.getInvolvedOpen;
   }
 }
