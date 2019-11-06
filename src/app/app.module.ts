@@ -3,6 +3,8 @@ import { NgModule, Component } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { RouterModule, Routes } from "@angular/router";
 
+import { NgxTypedJsModule } from 'ngx-typed-js';
+
 import { AppComponent } from "./app.component";
 import { NavigationComponent } from "./navigation/navigation.component";
 import { HeroComponent } from "./hero/hero.component";
@@ -50,6 +52,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    NgxTypedJsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

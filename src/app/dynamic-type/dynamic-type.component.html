@@ -1,7 +1,17 @@
 <div class="typedjs-container">
   <div>
     <h2 class="display-5">Got LOVE to spare?</h2>
-    <h2><span class="typedjs-strings"></span></h2>
+    <ngx-typed-js 
+      [strings]="['Adopt ^1000', 'Donate ^1000', 'Volunteer ^1000']"
+      [backDelay]="500"
+      [backSpeed]="50"
+      [cursorChar]="'|'"
+      [startDelay]="600"
+      [typeSpeed]="60"
+      [loop]="true"
+    >
+      <h2><span class="typing"></span></h2>
+    </ngx-typed-js>
     <button type="button" class="btn btn-learn-how">Learn How</button>
   </div>
 </div>
