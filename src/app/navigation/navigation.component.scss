@@ -2,15 +2,35 @@
 
 nav {
   z-index: 1;
+
+  @media (min-width: 992px) {
+    padding-bottom: 0;
+  }
 }
 
-.dropdown-menu.show {
-  border: 0;
-  margin: .5em 0 0 0;
-  padding: 0;
+.nav-item {
+  .nav-link {
+    margin-bottom: 8px;
+  }
+}
+
+.dropdown-menu {
+  top: 45px;
+
+  .show {
+    border: 0;
+    margin: .5em 0 0 0;
+    padding: 0;
+  }
 }
 
 .dropdown-item:hover {
   background-color: $color-dark-cyan;
   color: $color-white;
+}
+
+li.dropdown {
+  &:hover > .dropdown-menu {
+    display: block;
+  }
 }

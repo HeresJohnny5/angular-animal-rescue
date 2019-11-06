@@ -13,11 +13,11 @@
             <a class="nav-link" href="#">About Us</a>
           </li>
 
-          <li class="nav-item dropdown" (click)="toggleAdopt()">
+          <li class="nav-item dropdown">
             <a id="navbarDropdown" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               Adopt
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" [ngClass]="{ 'show': adoptOpen }">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" routerLink="/dogs" routerLinkActive="active">Dogs</a>
               <a class="dropdown-item" routerLink="/cats" routerLinkActive="active">Cats</a>
               <div class="dropdown-divider"></div>
