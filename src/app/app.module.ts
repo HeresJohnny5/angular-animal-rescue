@@ -21,6 +21,7 @@ import { ContactComponent } from "./contact/contact.component";
 import { CatsComponent } from "./pets/cats/cats.component";
 import { PetComponent } from "./pets/pet/pet.component";
 import { PaginationComponent } from "./pagination/pagination.component";
+import { AboutComponent } from './about/about.component';
 
 const appRoutes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },
@@ -48,7 +49,8 @@ const appRoutes: Routes = [
     ContactComponent,
     CatsComponent,
     PetComponent,
-    PaginationComponent
+    PaginationComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
