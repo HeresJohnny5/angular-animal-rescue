@@ -22,12 +22,14 @@ import { CatsComponent } from "./pets/cats/cats.component";
 import { PetComponent } from "./pets/pet/pet.component";
 import { PaginationComponent } from "./pagination/pagination.component";
 import { AboutComponent } from './about/about.component';
+import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 
 const appRoutes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },
   { path: "home", component: HomeComponent },
   { path: "dogs", component: DogsComponent },
   { path: "cats", component: CatsComponent },
+  { path: "about", component: AboutComponent },
   { path: "pet/:id", component: PetComponent }
   // { path: '**', component: PageNotFoundComponent }
 ];
@@ -50,7 +52,8 @@ const appRoutes: Routes = [
     CatsComponent,
     PetComponent,
     PaginationComponent,
-    AboutComponent
+    AboutComponent,
+    WhoWeAreComponent
   ],
   imports: [
     BrowserModule,

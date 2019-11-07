@@ -8,6 +8,7 @@ import { Router } from "@angular/router";
 })
 export class HeroComponent implements OnInit {
   heroTitle: string;
+  heroSub: string = "The best things in life are rescued";
 
   constructor(private router: Router) {}
 
@@ -22,6 +23,10 @@ export class HeroComponent implements OnInit {
       case "/cats":
         this.heroTitle = "Cats";
         break;
+      case "/about":
+        this.heroTitle = "Who We Are";
+        this.heroSub = "Hello World!";
+        break;
     }
   }
 
@@ -29,7 +34,8 @@ export class HeroComponent implements OnInit {
     return {
       "hero-home": this.heroTitle === "Adopt A Pet",
       "hero-dog": this.heroTitle === "Dogs",
-      "hero-cat": this.heroTitle === "Cats"
+      "hero-cat": this.heroTitle === "Cats",
+      "hero-about": this.heroTitle === "Who We Are"
     };
   }
 }
