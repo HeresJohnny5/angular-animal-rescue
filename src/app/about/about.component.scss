@@ -8,3 +8,24 @@
   padding: 0.25em;
   width: 52%;
 }
+
+#photo-statement {
+  padding-top: 3em;
+
+  .col-md-6 {
+    padding: 0;
+  }
+
+  .col-md-6:nth-child(2) {
+    background-color: $color-orange-red;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
