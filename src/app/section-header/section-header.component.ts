@@ -15,6 +15,7 @@ export class SectionHeaderComponent implements OnInit {
   sectionHeaderValue(): Object {
     return {
       "header-about": this.sectionTitle === "About Us",
+      "header-team": this.sectionTitle === "Team",
       "header-content":
         this.sectionTitle === "Adopt" || this.sectionTitle === "Get Involved",
       "header-partners": this.sectionTitle === "Pittsburgh Proud"

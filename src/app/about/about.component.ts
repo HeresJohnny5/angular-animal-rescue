@@ -13,4 +13,5 @@ export class AboutComponent implements OnInit {
   }
 
   headersAbout: string = "About Us";
+  team: string = "Team"
 }
