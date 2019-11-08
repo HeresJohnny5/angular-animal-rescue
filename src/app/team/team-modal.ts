@@ -4,6 +4,5 @@ export interface Team {
   title: string;
   img: string;
   alt: string;
-  body: string;
   phoneExt: string;
 }

@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Team } from "../team/team-modal";
+
+import { TeamData } from "../../assets/data/team-data";
+
 @Component({
   selector: 'app-team',
   templateUrl: './team.component.html',
@@ -12,4 +16,5 @@ export class TeamComponent implements OnInit {
   ngOnInit() {
   }
 
+  teamMembers: Team[] = TeamData;
 }

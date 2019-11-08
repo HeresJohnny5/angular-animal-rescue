@@ -4,10 +4,8 @@ export const TeamData = [
     firstName: "John Samson",
     title: "President & CEO",
     img:
-      "https://images.unsplash.com/photo-1447684808650-354ae64db5b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1347&q=80",
-    alt: "Photo by Jairo Alzate on Unsplash",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?",
+      "https://images.unsplash.com/photo-1555092394-6ed41ac4afb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+    alt: "Photo by Luis Quintero on Unsplash",
     phoneExt: "ext. 235"
   },
   {
@@ -15,10 +13,8 @@ export const TeamData = [
     firstName: "Lena Calkins",
     title: "Chief Operating & Financial Officer",
     img:
-      "https://images.unsplash.com/photo-1477884143921-51d0a574ee09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Justin Veenema on Unsplash",
-    desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?",
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+    alt: "Photo by Christopher Campbell on Unsplash",
     phoneExt: "ext. 201"
   },
   {
@@ -26,10 +22,8 @@ export const TeamData = [
     firstName: "Nathan Chow",
     title: "Chief Development Officer",
     img:
-      "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-    alt: "Photo by Erik-Jan Leusink on Unsplash",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?",
+      "https://images.unsplash.com/photo-1544098575-553f8a92c545?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+    alt: "Photo by Emile Guillemot on Unsplash",
     phoneExt: "ext. 222"
   },
   {
@@ -37,10 +31,8 @@ export const TeamData = [
     firstName: "Joy Watson",
     title: "Director of Human Resources", 
     img:
-      "https://images.unsplash.com/photo-1545424920-dfef0be9bfc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-    alt: "Photo by fotografierende on Unsplash",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?",
+      "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    alt: "Photo by KAL VISUALS on Unsplash",
     phoneExt: "ext. 234"
   },
   {
@@ -48,21 +40,17 @@ export const TeamData = [
     firstName: "James Marciniak",
     title: "Director of Volunteer and Foster", 
     img:
-      "https://images.unsplash.com/photo-1529956650128-bca881be2e60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Edgar Chaparro on Unsplash",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?",
+      "https://images.unsplash.com/photo-1432656878500-70bbc0c37e85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+    alt: "Photo by Banter Snaps on Unsplash",
     phoneExt: "ext. 243"
   },
   {
     id: 5,
-    firstName: "Kevin Smith",
+    firstName: "Brittany Smith",
     title: "Director of Animal Services", 
     img:
-      "https://images.unsplash.com/photo-1534330980656-d201223895ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Isabela Ferreira on Unsplash",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?",
+      "https://images.unsplash.com/photo-1568553744327-1efafbc80c5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+    alt: "Photo by Levi Clancy on Unsplash",
     phoneExt: "ext. 211"
   },
   {
@@ -70,10 +58,8 @@ export const TeamData = [
     firstName: "Justin Taylor",
     title: "Director of Adoption", 
     img:
-      "https://images.unsplash.com/photo-1542736143-29a8432162bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-    alt: "Photo by Diana Parkhouse on Unsplash",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?",
+      "https://images.unsplash.com/photo-1542974242-cde14af34396?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80",
+    alt: "Photo by Emiliano Vittoriosi on Unsplash",
     phoneExt: "ext. 205"
   },
   {
@@ -81,21 +67,8 @@ export const TeamData = [
     firstName: "Divya Richards",
     title: "Director of Operations",
     img:
-      "https://images.unsplash.com/photo-1493536122405-24f67df95909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Caleb Woods on Unsplash",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?",
+      "https://images.unsplash.com/photo-1544507888-56d73eb6046e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+    alt: "Photo by Jamie Brown on Unsplash",
     phoneExt: "ext. 211"
-  },
-  {
-    id: 8,
-    firstName: "Sam Weiss",
-    title: "Director of Medical", 
-    img:
-      "https://images.unsplash.com/photo-1512251275231-63e355f3d028?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    alt: "Photo by Rebekah Howell on Unsplash",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam temporibus architecto tempore consequatur quas eligendi quis? Impedit fugit deleniti velit iste eaque ipsa dolorum sit odit ab modiharum, hic esse, voluptatibus at perspiciatis cupiditate blanditiis debitis dolor nulla molestiae. Temporibus tenetur repellat corporis sequi voluptas quaerat explicabo voluptate?",
-    phoneExt: "ext. 221"
   }
 ];

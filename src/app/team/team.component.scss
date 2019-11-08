@@ -1,0 +1,17 @@
+@import "../app.component.scss";
+
+.card-body {
+  background-color: $color-dark-cyan;
+  $color-dark-cyan:rgba($color-dark-cyan, .9);
+  bottom: 0;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  opacity: .8;
+  width: 85%;
+
+  h5, p {
+    margin-bottom: 0;
+  }
+}
