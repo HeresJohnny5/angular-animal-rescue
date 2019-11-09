@@ -21,7 +21,6 @@ export class PetComponent implements OnInit {
   ngOnInit() {
     const passedName = this.route.snapshot.params.name;
     this.pet = this.pets.find(pet => pet.name === passedName);
-    console.log('this.pet: ', this.pet);
 
     if (this.pet.species === "Dog") {
       this.headersPet = "Adoptable Dogs";
@@ -32,7 +31,5 @@ export class PetComponent implements OnInit {
 
       this.otherPets = this.pets.filter(pet => pet.species === "Cat" && pet.name !== this.pet.name);
     }
-
-    // console.log('this.otherPets: ', this.otherPets);
   }
 }
