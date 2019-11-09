@@ -3,7 +3,8 @@
 .header-about,
 .header-content,
 .header-partners,
-.header-team {
+.header-team,
+.header-pet {
   text-align: center;
   padding-bottom: 3em;
 }
@@ -19,7 +20,8 @@
 .header-about h2::after,
 .header-content h2::after,
 .header-partners h2::after,
-.header-team h2:after {
+.header-team h2:after,
+.header-pet h2:after {
   content: " ";
   display: block;
   height: 2px;
@@ -30,7 +32,8 @@
 
 .header-about h2::after,
 .header-content h2::after,
-.header-team h2:after {
+.header-team h2:after,
+.header-pet h2:after {
   background-color: $color-dark-cyan;
 }
 

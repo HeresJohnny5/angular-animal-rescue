@@ -17,7 +17,7 @@ export class DogsComponent implements OnInit {
   ngOnInit() {}
 
   headersAbout: string = "About Us";
-  headersAdopt: string = "Adopt";
+  adoptableDogs: string = "Adoptable Dogs";
   headersGetInvolved: string = "Get Involved";
   headersPartners: string = "Pittsburgh Proud";
 

@@ -17,7 +17,7 @@ export class CatsComponent implements OnInit {
   ngOnInit() {}
 
   headersAbout: string = "About Us";
-  headersAdopt: string = "Adopt";
+  adoptableCats: string = "Adoptable Cats";
   headersGetInvolved: string = "Get Involved";
   headersPartners: string = "Pittsburgh Proud";
 

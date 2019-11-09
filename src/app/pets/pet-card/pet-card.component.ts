@@ -14,10 +14,18 @@ export class PetCardComponent implements OnInit {
   @Input() pets;
   clonePets: Pet[];
 
+  goToPet(petName) {
+    this.router.navigate([`./pet/${petName}`]);
+  }
+
   constructor(private router: Router) {}
 
   ngOnInit() {
+    console.log('this.pets: ', this.pets);
+
     this.clonePets = cloneDeep(this.pets);
+
+    console.log('this.clonePets: ', this.clonePets);
 
     if (this.router.url === "/dogs") {
       this.clonePets = this.clonePets.filter(pet => pet.species === "Dog");

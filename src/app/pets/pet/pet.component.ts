@@ -11,16 +11,28 @@ import { Pet } from "../../pets/pet-modal";
   styleUrls: ["./pet.component.scss"]
 })
 export class PetComponent implements OnInit {
+  headersPet: string = "John";
+  pets: Pet[] = PetsData;
+  pet: any;
+  otherPets: Pet[];
+
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
     const passedName = this.route.snapshot.params.name;
-    console.log('passedName: ', passedName);
-
     this.pet = this.pets.find(pet => pet.name === passedName);
     console.log('this.pet: ', this.pet);
-  }
 
-  pets: Pet[] = PetsData;
-  pet: any;
+    if (this.pet.species === "Dog") {
+      this.headersPet = "Adoptable Dogs";
+      
+      this.otherPets = this.pets.filter(pet => pet.species === "Dog" && pet.name !== this.pet.name);
+    } else {
+      this.headersPet = "Adoptable Cats";
+
+      this.otherPets = this.pets.filter(pet => pet.species === "Cat" && pet.name !== this.pet.name);
+    }
+
+    // console.log('this.otherPets: ', this.otherPets);
+  }
 }

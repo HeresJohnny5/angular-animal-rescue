@@ -10,12 +10,15 @@ export class SectionHeaderComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    
+  }
 
   sectionHeaderValue(): Object {
     return {
       "header-about": this.sectionTitle === "About Us",
       "header-team": this.sectionTitle === "Team",
+      "header-pet": this.sectionTitle === "Adoptable Dogs" || this.sectionTitle === "Adoptable Cats",
       "header-content":
         this.sectionTitle === "Adopt" || this.sectionTitle === "Get Involved",
       "header-partners": this.sectionTitle === "Pittsburgh Proud"
