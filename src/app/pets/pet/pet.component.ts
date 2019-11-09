@@ -14,8 +14,11 @@ export class PetComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
-    const passedId = this.route.snapshot.params.id;
-    this.pet = this.pets.find(pet => pet.id === parseInt(passedId));
+    const passedName = this.route.snapshot.params.name;
+    console.log('passedName: ', passedName);
+
+    this.pet = this.pets.find(pet => pet.name === passedName);
+    console.log('this.pet: ', this.pet);
   }
 
   pets: Pet[] = PetsData;

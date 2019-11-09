@@ -7,7 +7,7 @@
           <h5 class="card-title featurette-heading">{{ pet.name }}</h5>
           <p class="card-text">{{ pet.breed }}</p>
           <p class="card-text">{{ pet.sex }} - {{ pet.age }} (approx)</p>
-          <a href="#" [routerLink]="['/pet/', pet.id]">
+          <a [routerLink]="['/pet/', pet.name]">
             <button
               type="button"
               class="btn btn-sm btn-outline-secondary btn-adopt"

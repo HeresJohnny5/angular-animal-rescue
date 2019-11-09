@@ -31,7 +31,7 @@ const appRoutes: Routes = [
   { path: "dogs", component: DogsComponent },
   { path: "cats", component: CatsComponent },
   { path: "about", component: AboutComponent },
-  { path: "pet/:id", component: PetComponent }
+  { path: "pet/:name", component: PetComponent }
   // { path: '**', component: PageNotFoundComponent }
 ];
 

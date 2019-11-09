@@ -39,3 +39,17 @@
 .social-container-body i {
   transform: scale(1.07) skewX(15deg);
 }
+
+/* ***** CONTACT US STYLES ***** */
+#contact-us {
+  background-color: #e4856d;
+  color: $color-white;
+  padding: 3em;
+  text-align: center;
+}
+
+/* ***** PARTNERS STYLES ***** */
+#partners {
+  background-color: #2193b0;
+  padding: 3em 0;
+}
