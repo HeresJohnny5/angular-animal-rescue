@@ -11,7 +11,8 @@ import { Pet } from "../../pets/pet-modal";
   styleUrls: ["./pet.component.scss"]
 })
 export class PetComponent implements OnInit {
-  headersPet: string = "John";
+  headersPet: string;
+  headersPartners: string = "Pittsburgh Proud";
   pets: Pet[] = PetsData;
   pet: any;
   otherPets: Pet[];
