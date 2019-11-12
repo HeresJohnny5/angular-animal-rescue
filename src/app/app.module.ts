@@ -25,6 +25,7 @@ import { AboutComponent } from './about/about.component';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { TeamComponent } from './team/team.component';
 import { DonateComponent } from './get-involved/donate/donate.component';
+import { DonateFormComponent } from './forms/donate-form/donate-form.component';
 
 const appRoutes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },
@@ -58,7 +59,8 @@ const appRoutes: Routes = [
     AboutComponent,
     WhoWeAreComponent,
     TeamComponent,
-    DonateComponent
+    DonateComponent,
+    DonateFormComponent
   ],
   imports: [
     BrowserModule,
