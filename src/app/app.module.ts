@@ -31,8 +31,8 @@ const appRoutes: Routes = [
   { path: "dogs", component: DogsComponent },
   { path: "cats", component: CatsComponent },
   { path: "about", component: AboutComponent },
-  { path: "pet/:name", component: PetComponent }
-  // { path: '**', component: PageNotFoundComponent }
+  { path: "pet/:name", component: PetComponent },
+  { path: "**", redirectTo: "/heroes", pathMatch: "full" }
 ];
 
 @NgModule({
