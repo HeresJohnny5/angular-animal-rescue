@@ -27,6 +27,9 @@ export class HeroComponent implements OnInit {
         this.heroTitle = "Who We Are";
         this.heroSub = "Hello World!";
         break;
+      case "/donate":
+        this.heroTitle = "Donate";
+        break;
     }
   }
 
@@ -35,7 +38,8 @@ export class HeroComponent implements OnInit {
       "hero-home": this.heroTitle === "Adopt A Pet",
       "hero-dog": this.heroTitle === "Dogs",
       "hero-cat": this.heroTitle === "Cats",
-      "hero-about": this.heroTitle === "Who We Are"
+      "hero-about": this.heroTitle === "Who We Are",
+      "hero-donate ": this.heroTitle === "Donate"
     };
   }
 }

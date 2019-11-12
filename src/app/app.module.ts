@@ -24,6 +24,7 @@ import { PaginationComponent } from "./pagination/pagination.component";
 import { AboutComponent } from './about/about.component';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { TeamComponent } from './team/team.component';
+import { DonateComponent } from './get-involved/donate/donate.component';
 
 const appRoutes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },
@@ -32,6 +33,7 @@ const appRoutes: Routes = [
   { path: "cats", component: CatsComponent },
   { path: "about", component: AboutComponent },
   { path: "pet/:name", component: PetComponent },
+  { path: "donate", component: DonateComponent },
   { path: "**", redirectTo: "/heroes", pathMatch: "full" }
 ];
 
@@ -55,7 +57,8 @@ const appRoutes: Routes = [
     PaginationComponent,
     AboutComponent,
     WhoWeAreComponent,
-    TeamComponent
+    TeamComponent,
+    DonateComponent
   ],
   imports: [
     BrowserModule,
