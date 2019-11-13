@@ -12,8 +12,8 @@ export class DonateFormComponent implements OnInit {
   ngOnInit() {
   }
 
-  log(x) {
-    console.log(x);
+  submitForm(form) {
+
   }
 
   states = [
