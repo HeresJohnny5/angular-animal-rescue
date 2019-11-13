@@ -2,7 +2,7 @@
   <form #form="ngForm" (ngSubmit)="submitForm(form)">
     <h4 class="mb-3">Customer Information</h4>
 
-    <div ngModelGroup="customerInformation">
+    <div class="form-model-group" ngModelGroup="customerInformation">
       <div class="form-group">
         <div class="row">
           <div class="col-md-6 mb-3">
@@ -18,7 +18,7 @@
 
     <h4 class="mb-3">Billing address</h4>
 
-    <div ngModelGroup="billingAddress">
+    <div class="form-model-group" ngModelGroup="billingAddress">
       <div class="form-group">
         <div class="row">
           <div class="col-md-6 mb-3">
@@ -77,9 +77,9 @@
 
           <div class="col-md-4 mb-3">
             <label for="state">State *</label>
-            <select id="state" class="custom-select d-block w-100" required ngModel name="state" #state="ngModel">
+            <select id="state" class="custom-select d-block w-100" required ngModel name="state" #state="ngModel" (change)="log(state)">
               <option value="">Choose...</option>
-              <option *ngFor="let state of states">{{ state }}</option>
+              <option *ngFor="let state of states" [ngValue]="state.id">{{ state.state }}</option>
             </select>
             <div class="alert alert-danger" *ngIf="state.touched && !state.valid">
               <div *ngIf="state.errors.required">Please provide a valid State</div>
@@ -99,7 +99,7 @@
 
     <h4 class="mb-3">Payment</h4>
 
-    <div ngModelGroup="payment">
+    <div class="form-model-group" ngModelGroup="payment">
       <div class="form-group">
         <div class="d-block my-3">
           <div class="custom-control custom-radio">
