@@ -2,6 +2,7 @@ import { NgModule, Component } from "@angular/core";
 
 import { BrowserModule } from "@angular/platform-browser";
 import { RouterModule, Routes } from "@angular/router";
+import { FormsModule } from "@angular/forms";
 
 import { NgxTypedJsModule } from 'ngx-typed-js';
 
@@ -65,6 +66,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     NgxTypedJsModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
