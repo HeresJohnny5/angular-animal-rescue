@@ -77,7 +77,7 @@
 
           <div class="col-md-4 mb-3">
             <label for="state">State *</label>
-            <select id="state" class="custom-select d-block w-100" required ngModel name="state" #state="ngModel" (change)="log(state)">
+            <select id="state" class="custom-select d-block w-100" required ngModel name="state" #state="ngModel">
               <option value="">Choose...</option>
               <option *ngFor="let state of states" [ngValue]="state.id">{{ state.state }}</option>
             </select>
