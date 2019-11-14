@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { ActivatedRoute } from "@angular/router";
+import { ActivatedRoute, Router } from "@angular/router";
 
 import { PetsData } from "../../../assets/data/pets-data";
 
@@ -17,7 +17,10 @@ export class PetComponent implements OnInit {
   pet: any;
   otherPets: Pet[];
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router
+  ) {}
 
   ngOnInit() {
     const passedName = this.route.snapshot.params.name;
@@ -31,6 +34,14 @@ export class PetComponent implements OnInit {
       this.headersPet = "Adoptable Cats";
 
       this.otherPets = this.pets.filter(pet => pet.species === "Cat" && pet.name !== this.pet.name);
+    }
+  }
+
+  redirect(action) {
+    switch (action) {
+      case "donate":
+        this.router.navigate(['./donate']);
+        break;
     }
   }
 }

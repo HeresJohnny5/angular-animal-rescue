@@ -22,9 +22,7 @@
         <div class="adopt-pet">
           <button class="btn action-btn">Adoption Application</button>
           <button class="btn action-btn">Foster Application</button>
-          <a routerLink="/donate" routerLinkActive="active">
-            <button class="btn action-btn">Make a Donation</button>
-          </a>
+          <button class="btn action-btn" (click)="redirect('donate')">Make a Donation</button>
         </div>
 
         <hr />
