@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DonateComponent implements OnInit {
   headersPartners: string = "Pittsburgh Proud";
+  headersDonate: string = "Make a Difference - Donate Today!";
 
   constructor() { }
 
