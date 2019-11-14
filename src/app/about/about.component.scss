@@ -1,5 +1,24 @@
 @import "../app.component.scss";
 
+/* ***** ABOUT US STYLES ***** */
+#about-us {
+  margin: 3em 0;
+}
+
+/* ***** CONTACT US STYLES ***** */
+#contact-us {
+  background-color: #e4856d;
+  color: $color-white;
+  padding: 3em;
+  text-align: center;
+}
+
+/* ***** PARTNERS STYLES ***** */
+#partners {
+  background-color: #2193b0;
+  padding: 3em 0;
+}
+
 .featurette-heading {
   background-color: $color-dark-cyan;
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
@@ -55,23 +74,4 @@
       padding: 0 32px;
     }
   }
-}
-
-/* ***** ABOUT US STYLES ***** */
-#about-us {
-  margin: 3em 0;
-}
-
-/* ***** CONTACT US STYLES ***** */
-#contact-us {
-  background-color: #e4856d;
-  color: $color-white;
-  padding: 3em;
-  text-align: center;
-}
-
-/* ***** PARTNERS STYLES ***** */
-#partners {
-  background-color: #2193b0;
-  padding: 3em 0;
 }

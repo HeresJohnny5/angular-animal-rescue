@@ -107,16 +107,15 @@
 
 .hero-sub {
   animation: fadeIn 2s ease-out;
+  border: 2px solid #fff;
+  border-radius: 3px;
   display: block;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 6px;
-  text-align: center;
-
-  border: 2px solid #fff;
-  padding: 1em;
   margin-top: 1em;
-  border-radius: 3px;
+  padding: 1em;
+  text-align: center;
 }
 
 @keyframes fadeInUp {

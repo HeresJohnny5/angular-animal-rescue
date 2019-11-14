@@ -6,13 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
   headersAbout: string = "About Us";
   team: string = "Team";
   headersPartners: string = "Pittsburgh Proud";
+
+  constructor() { }
+
+  ngOnInit() {}
 }

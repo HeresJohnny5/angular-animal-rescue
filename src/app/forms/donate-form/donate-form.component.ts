@@ -6,16 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./donate-form.component.scss']
 })
 export class DonateFormComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-  submitForm(form) {
-
-  }
-
   states = [
     { id: 1, state: "Alabama" },
     { id: 2, state: "Alaska" },
@@ -68,4 +58,12 @@ export class DonateFormComponent implements OnInit {
     { id: 49, state: "Wisconsin" },
     { id: 50, state: "Wyoming" }
   ];
+
+  constructor() { }
+
+  ngOnInit() {}
+
+  submitForm(form) {
+
+  }
 }

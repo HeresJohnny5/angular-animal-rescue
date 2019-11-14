@@ -9,7 +9,5 @@ export class WhoWeAreComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

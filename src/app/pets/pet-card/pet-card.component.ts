@@ -14,10 +14,6 @@ export class PetCardComponent implements OnInit {
   @Input() pets;
   clonePets: Pet[];
 
-  goToPet(petName) {
-    this.router.navigate([`./pet/${petName}`]);
-  }
-
   constructor(private router: Router) {}
 
   ngOnInit() {
@@ -35,5 +31,9 @@ export class PetCardComponent implements OnInit {
       }
       window.scrollTo(0, 0)
     });
+  }
+
+  goToPet(petName) {
+    this.router.navigate([`./pet/${petName}`]);
   }
 }

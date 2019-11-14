@@ -10,9 +10,7 @@ export class SectionHeaderComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {
-    
-  }
+  ngOnInit() {}
 
   sectionHeaderValue(): Object {
     return {

@@ -10,11 +10,9 @@ import { TeamData } from "../../assets/data/team-data";
   styleUrls: ['./team.component.scss']
 })
 export class TeamComponent implements OnInit {
+  teamMembers: Team[] = TeamData;
 
   constructor() { }
 
-  ngOnInit() {
-  }
-
-  teamMembers: Team[] = TeamData;
+  ngOnInit() {}
 }

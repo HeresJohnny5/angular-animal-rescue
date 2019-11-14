@@ -1,5 +1,25 @@
 @import "../../app.component.scss";
 
+/* ***** ADOPT STYLES ***** */
+#adopt {
+  background-color: #f0f0f0;
+  padding: 3em 0;
+}
+
+/* ***** CONTACT US STYLES ***** */
+#contact-us {
+  background-color: #e4856d;
+  color: $color-white;
+  padding: 3em;
+  text-align: center;
+}
+
+/* ***** PARTNERS STYLES ***** */
+#partners {
+  background-color: #2193b0;
+  padding: 3em 0;
+}
+
 #pet {
   margin: 2em 0;
 }
@@ -38,24 +58,4 @@
 
 .social-container-body i {
   transform: scale(1.07) skewX(15deg);
-}
-
-/* ***** ADOPT STYLES ***** */
-#adopt {
-  background-color: #f0f0f0;
-  padding: 3em 0;
-}
-
-/* ***** CONTACT US STYLES ***** */
-#contact-us {
-  background-color: #e4856d;
-  color: $color-white;
-  padding: 3em;
-  text-align: center;
-}
-
-/* ***** PARTNERS STYLES ***** */
-#partners {
-  background-color: #2193b0;
-  padding: 3em 0;
 }

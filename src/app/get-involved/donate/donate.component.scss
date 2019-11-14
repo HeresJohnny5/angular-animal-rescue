@@ -1,45 +1,60 @@
+@import "../../app.component.scss";
+
+/* ***** CONTACT US STYLES ***** */
+#contact-us {
+  background-color: #e4856d;
+  color: $color-white;
+  padding: 3em;
+  text-align: center;
+}
+
+/* ***** PARTNERS STYLES ***** */
+#partners {
+  background-color: #2193b0;
+  padding: 3em 0;
+}
+
 #pets-saved {
   margin: 3em 0;
-}
 
-h1 {
-  font-size: 5em;
-  color: #e4856d;
+  h1 {
+    color: #e4856d;
+    font-size: 5em;
+  }
 
-}
+  h2 {
+    font-size: 38px;
+    font-style: italic;
+    letter-spacing: .7px;
+  }
 
-h2 {
-  font-size: 38px;
-  font-style: italic;
-  letter-spacing: .7px;
-}
+  h3 {
+    color: #009694;
+    font-size: 77px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 2.9px;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 
-.block {
-  padding-left: 35px;
-  border-left: dashed 3px #ccc;
-}
+  p {
+    color: #485052;
+    font-family: Muli;
+    font-size: 21px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: .6px;
+  }
 
-h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 77px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 2.9px;
-  color: #009694;
-}
-
-p {
-  font-family: Muli;
-  font-size: 21px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: .6px;
-  color: #485052;
+  .block {
+    border-left: dashed 3px #ccc;
+    padding-left: 35px;
+  }
 }
 
 #donate-form {

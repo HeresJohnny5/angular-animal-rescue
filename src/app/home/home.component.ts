@@ -12,10 +12,6 @@ import { GetInvolvedData } from "../../assets/data/get-involved-data";
   styleUrls: ["./home.component.scss"]
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-
   headersAbout: string = "About Us";
   headersAdopt: string = "Adopt";
   headersGetInvolved: string = "Get Involved";
@@ -23,4 +19,8 @@ export class HomeComponent implements OnInit {
 
   pets: Pet[] = PetsData;
   getInvolvedData: GetInvolved[] = GetInvolvedData;
+
+  constructor() {}
+
+  ngOnInit() {}
 }
