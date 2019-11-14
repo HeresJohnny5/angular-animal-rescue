@@ -27,6 +27,23 @@
 .adopt-pet {
   display: flex;
   justify-content: space-evenly;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+
+  .action-btn {
+    background-color: $color-dark-cyan;
+    color: #fff;
+
+    &:hover {
+      background-color: $color-dark-cyan-hover;
+    }
+
+    @media (max-width: 992px) {
+      margin-bottom: 1em;
+    }
+  }
 }
 
 .featurette-heading {
