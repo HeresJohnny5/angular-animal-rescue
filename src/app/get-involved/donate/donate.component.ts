@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./donate.component.scss']
 })
 export class DonateComponent implements OnInit {
+  headersPartners: string = "Pittsburgh Proud";
 
   constructor() { }
 
