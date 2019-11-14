@@ -1,9 +1,13 @@
 .form-control.ng-touched.ng-invalid {
-  border: 2px solid red;
+  border: 1px solid #a94442;
 }
 
 .form-model-group {
   border: 1px solid #eee;
   padding: 1em;
   margin-bottom: 1em;
+}
+
+.error {
+  color: #a94442;
 }

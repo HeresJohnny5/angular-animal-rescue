@@ -4,7 +4,7 @@
 
 h1 {
   font-size: 5em;
-	color: #e4856d;
+  color: #e4856d;
 
 }
 
@@ -40,4 +40,17 @@ p {
   line-height: normal;
   letter-spacing: .6px;
   color: #485052;
+}
+
+#donate-form {
+  background-color: #f4f3ef;
+  padding: 2em 0;
+
+  .container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, .06);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
 }
